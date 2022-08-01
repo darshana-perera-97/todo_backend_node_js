@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-  "mongodb+srv://darshana:darshana@cluster0.b4ir7g9.mongodb.net/todo_new?retryWrites=true&w=majority"
+  "mongodb+srv://darshana:darshana@cluster0.uoooe.mongodb.net/todo?retryWrites=true&w=majority"
 );
 
 app.get("/getTodos", (req, res) => {
